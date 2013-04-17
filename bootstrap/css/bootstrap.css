@@ -224,10 +224,10 @@ textarea {
 }
 
 body {
-  margin: 0;
+  margin-top: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 14px;
+  line-height: 20px;
   color: #555555;
   background-color: #ffffff;
 }
@@ -4358,14 +4358,15 @@ input[type="submit"].btn.btn-mini {
 .navbar {
   *position: relative;
   *z-index: 2;
+  margin-top: 35px;
   margin-bottom: 21px;
   overflow: visible;
 }
 
 .navbar-inner {
-  min-height: 55px;
-  padding-right: 20px;
-  padding-left: 20px;
+  min-height: 45px;
+  padding-right: 10px;
+  padding-left: 10px;
   background-color: #013435;
   background-image: -moz-linear-gradient(top, #013435, #013435);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#013435), to(#013435));
@@ -4401,7 +4402,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav-collapse.collapse {
   height: auto;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .navbar .brand {
@@ -4422,7 +4423,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-text {
   margin-bottom: 0;
-  line-height: 55px;
+  line-height: 36px;
   color: #999999;
 }
 
@@ -4605,7 +4606,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 17px 15px 17px;
+  padding: 10px 10px 10px;
   color: #ffffff;
   text-decoration: none;
   text-shadow: 0 1px 0 #013435;
@@ -6784,4 +6785,14 @@ select {
 
 .affix {
   position: fixed;
+}
+
+.headerbg {
+    background: #63949A;
+    display: block;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    margin: 0 0 15px 20px;
+    
 }
